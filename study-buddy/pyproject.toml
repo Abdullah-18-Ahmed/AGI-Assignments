@@ -1,0 +1,20 @@
+[project]
+name = "study-buddy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Abdullah-18-Ahmed", email = "abdullah0512ahmed@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "openai-agents>=0.22.0",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+study-buddy = "study_buddy:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"

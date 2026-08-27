@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "title": "Introduction to OpenAI Agents SDK",
+    "summary": "The OpenAI Agents SDK provides a lightweight framework for building AI agents with Python. It simplifies agent creation by offering built-in tools, handoffs, and guardrails. This module covers installation, basic concepts, and your first agent.",
+    "key_facts": [
+      "The SDK requires Python 3.8+ and installs via 'pip install openai-agents'",
+      "Agents consist of instructions, tools, and an LLM model"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Agent Architecture and Components",
+    "summary": "An agent in the SDK is composed of a name, instructions, model, tools, and optional handoffs. The instructions define the agent's behavior and personality. Tools extend the agent's capabilities beyond text generation.",
+    "key_facts": [
+      "Instructions are the system prompt that guides agent behavior",
+      "Tools are Python functions decorated with @function_tool"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Creating and Running Your First Agent",
+    "summary": "Creating an agent involves instantiating the Agent class with required parameters. The Runner class executes agents asynchronously with user input. Results include the final output and any tool calls made.",
+    "key_facts": [
+      "Use Runner.run(agent, input) for single-turn or Runner.run_sync for synchronous execution",
+      "The result object contains final_output, new_items, and usage metadata"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Function Tools and Tool Calling",
+    "summary": "Function tools allow agents to execute Python code during conversations. Decorate functions with @function_tool to register them. The SDK automatically generates JSON schemas from type hints for the LLM.",
+    "key_facts": [
+      "Type hints are mandatory for @function_tool to generate proper schemas",
+      "Tools can return any JSON-serializable value including dicts and lists"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Agent Handoffs and Multi-Agent Systems",
+    "summary": "Handoffs enable agents to delegate tasks to specialized sub-agents. Define handoffs as a list of Agent instances in the parent agent. The SDK handles context transfer automatically during handoff.",
+    "key_facts": [
+      "Handoffs are one-way transfers; the new agent takes over completely",
+      "Use Agent.handoffs parameter to register sub-agents"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Guardrails for Safety and Validation",
+    "summary": "Guardrails validate agent inputs and outputs before and after LLM calls. Input guardrails check user messages; output guardrails verify agent responses. They can trigger escalation or provide corrective feedback.",
+    "key_facts": [
+      "Guardrails are async functions returning GuardrailFunctionOutput",
+      "Tripwires in guardrails can halt execution and transfer to a fallback agent"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Tracing and Debugging Agent Runs",
+    "summary": "The SDK integrates with OpenAI's tracing platform for observability. Traces capture every step including tool calls, handoffs, and LLM responses. Enable tracing by setting the OPENAI_API_KEY environment variable.",
+    "key_facts": [
+      "Traces appear in the OpenAI dashboard under the Traces tab",
+      "Use RunConfig to customize trace metadata and sampling"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Streaming Responses and Real-Time Output",
+    "summary": "Streaming delivers partial responses as they're generated for better UX. Use Runner.run_streamed() to get an async iterator over response events. Events include text deltas, tool calls, and completion signals.",
+    "key_facts": [
+      "Streamed runs return a StreamedRunResult with async event iteration",
+      "TextDelta events contain incremental response chunks"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Session Management and Conversation History",
+    "summary": "Sessions maintain conversation state across multiple turns. The SDK stores history automatically when using the same session ID. Sessions persist tool results and agent responses for context.",
+    "key_facts": [
+      "Pass session_id to Runner.run() to maintain history",
+      "Session data is stored in-memory by default; use custom storage for persistence"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Structured Output with Pydantic Models",
+    "summary": "Structured output forces the LLM to return data matching a Pydantic schema. Define output_type on the Agent with a Pydantic model. The SDK validates and parses responses automatically.",
+    "key_facts": [
+      "Set output_type=MyModel on Agent to enforce structured responses",
+      "Validation errors trigger automatic retries with corrective feedback"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Context Management and Dependencies",
+    "summary": "Context allows passing runtime data like user info, DB connections, or config to tools. Define a context class and pass it to Runner.run(). Tools access context via RunContextWrapper.",
+    "key_facts": [
+      "Context is generic; define a dataclass or Pydantic model for type safety",
+      "Access context in tools with ctx.context.field_name"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Run Configuration and Customization",
+    "summary": "RunConfig controls execution behavior including model settings, tracing, and guardrails. Customize max_turns, timeout, and metadata per run. RunConfig applies to both sync and streaming runs.",
+    "key_facts": [
+      "max_turns limits total agent-tool iterations to prevent infinite loops",
+      "trace_metadata adds custom tags for filtering in the dashboard"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Error Handling and Resilience Patterns",
+    "summary": "The SDK raises specific exceptions for different failure modes. Handle ModelBehaviorError for guardrail trips, MaxTurnsExceeded for loops. Implement retry logic and fallback agents for production resilience.",
+    "key_facts": [
+      "Catch AgentsException base class for all SDK errors",
+      "Use try/except around Runner.run() for graceful degradation"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Best Practices and Production Deployment",
+    "summary": "Production agents need monitoring, evaluation, and versioning. Use tracing for observability, guardrails for safety, and structured output for reliability. Test with diverse inputs and implement gradual rollout.",
+    "key_facts": [
+      "Always set max_turns and timeouts to prevent runaway costs",
+      "Version agent instructions and tools alongside your application code"
+    ]
+  }
+]
