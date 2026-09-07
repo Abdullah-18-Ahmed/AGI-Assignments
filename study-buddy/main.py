@@ -20,27 +20,27 @@ client = AsyncOpenAI(
 )
 
 model = OpenAIChatCompletionsModel(
-    model="gemini-3.6-flash",
+    model="gemini-3.5-flash",
     openai_client=client,
 )
 
 gentle_model = OpenAIChatCompletionsModel(
-    model="gemini-3.6-flash",
+    model="gemini-3.5-flash",
     openai_client=client,
 )
 
 strict_model = OpenAIChatCompletionsModel(
-    model="gemini-3.6-flash",
+    model="gemini-3.5-flash",
     openai_client=client,
 )
 
 writer_model = OpenAIChatCompletionsModel(
-    model="gemini-3.6-flash",
+    model="gemini-3.5-flash",
     openai_client=client,
 )
 
 grader_model = OpenAIChatCompletionsModel(
-    model="gemini-3.6-flash",
+    model="gemini-3.5-flash",
     openai_client=client,
 )
 

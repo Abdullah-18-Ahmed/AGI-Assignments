@@ -1,0 +1,21 @@
+[project]
+name = "lead-desk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Abdullah-18-Ahmed", email = "abdullah0512ahmed@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai>=3.8.0",
+    "openai-agents>=0.22.0",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+lead-desk = "lead_desk:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"

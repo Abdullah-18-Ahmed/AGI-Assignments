@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "message": "Hi, I need a full React dashboard built for our SaaS analytics platform. Budget is $15,000. Can you start next week?",
+    "platform": "email"
+  },
+  {
+    "id": 4,
+    "message": "URGENT: Our production API is down and we need a Node.js backend fix ASAP. Can you jump on this in the next 2 hours?",
+    "platform": "discord"
+  },
+  {
+    "id": 1,
+    "message": "Hi, I need a full React dashboard built for our SaaS analytics platform. Budget is $15,000. Can you start next week?",
+    "platform": "email"
+  },
+  {
+    "id": 4,
+    "message": "URGENT: Our production API is down and we need a Node.js backend fix ASAP. Can you jump on this in the next 2 hours?",
+    "platform": "discord"
+  }
+]

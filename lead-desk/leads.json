@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "message": "Hi, I need a full React dashboard built for our SaaS analytics platform. Budget is $15,000. Can you start next week?",
+    "platform": "email"
+  },
+  {
+    "id": 2,
+    "message": "Hey! I have a startup idea for an AI-powered fitness app. I can't pay upfront but I'm offering 20% equity/revenue share. Interested?",
+    "platform": "linkedin"
+  },
+  {
+    "id": 3,
+    "message": "I need something built. Not sure exactly what yet. Maybe a website? Or an app? Can you help figure it out?",
+    "platform": "twitter"
+  },
+  {
+    "id": 4,
+    "message": "URGENT: Our production API is down and we need a Node.js backend fix ASAP. Can you jump on this in the next 2 hours?",
+    "platform": "discord"
+  },
+  {
+    "id": 5,
+    "message": "Can you fix a CSS alignment issue on my landing page? It's a small fix, should take 10 minutes tops.",
+    "platform": "email"
+  },
+  {
+    "id": 6,
+    "message": "I need a complete e-commerce platform with payment integration, inventory management, and admin panel. Deadline is Friday. What's your rate?",
+    "platform": "upwork"
+  }
+]
