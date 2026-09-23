@@ -1,0 +1,18 @@
+[project]
+name = "saylani-ops-desk"
+version = "0.1.0"
+description = "Saylani Student Ops Desk — Phase 1 core desk (FR-1..FR-4)"
+readme = "README.md"
+authors = [
+    { name = "Abdullah-18-Ahmed", email = "abdullah0512ahmed@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chainlit>=2.12.0",
+    "openai-agents>=0.22.3",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+]
+
+[tool.uv]
+package = false

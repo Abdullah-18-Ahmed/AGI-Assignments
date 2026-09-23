@@ -1,0 +1,4 @@
+{"seq": 1, "ts": 1790166597.2379067, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 2, "ts": 1790166597.2379067, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "AssignmentsSpecialist"}}
+{"seq": 3, "ts": 1790166597.2379067, "kind": "handoff_arrive", "agent": "AssignmentsSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 4, "ts": 1790166597.2379067, "kind": "agent_end", "agent": "AssignmentsSpecialist", "detail": {}}

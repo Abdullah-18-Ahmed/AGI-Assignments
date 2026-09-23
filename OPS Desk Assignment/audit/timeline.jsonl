@@ -1,0 +1,617 @@
+{"seq": 1, "ts": 1790162648.8889718, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "2191d3d0df2b4e10be29ad9e27807da2", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162648.9619684, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790162648.9719396, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "2191d3d0df2b4e10be29ad9e27807da2", "elapsed_ms": 82.54, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790162650.2261155, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "cfaa6061fa8645b98ebda84d6d2e8714", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162650.310466, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790162650.3184502, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "cfaa6061fa8645b98ebda84d6d2e8714", "elapsed_ms": 92.56, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790162651.5300694, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "13b53c8a9b9c490b86d991f71f8fda33", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162651.5829968, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790162651.6009681, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "13b53c8a9b9c490b86d991f71f8fda33", "elapsed_ms": 71.41, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790162651.9756505, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "7bd81efc0ed3416a8d1c3617131a42d1", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162652.047779, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790162652.0572984, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "7bd81efc0ed3416a8d1c3617131a42d1", "elapsed_ms": 81.41, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790162652.3402524, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "c7a37400fe4c48abbfc5bb90dcc730ee", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162652.4065392, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790162652.4170568, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "c7a37400fe4c48abbfc5bb90dcc730ee", "elapsed_ms": 76.36, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790162652.472578, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "e9f33ec7476e4a7a8809a423f15be005", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162652.519009, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790162652.5279882, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "e9f33ec7476e4a7a8809a423f15be005", "elapsed_ms": 55.09, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790162653.7585404, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "a60d38c748e945ab965f5a4de0282801", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162653.8034916, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790162653.8130155, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "a60d38c748e945ab965f5a4de0282801", "elapsed_ms": 54.55, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790162767.8170168, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 1, "ts": 1790162768.8704238, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 1, "ts": 1790162769.3760657, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 1, "ts": 1790162769.6735368, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "8e5cd6a341594bdd95073d421409bc3a", "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790162769.9124422, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 1, "ts": 1790162771.3979554, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "d5f1e5b6703b4e018839f937758aae58", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162771.4687362, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "5893c2a2ad8f4099bae9bba530f2efed", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162772.154555, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "c20af9b760414f1090c3a5ad8eddaeb9", "scope": "custom_runner"}}
+{"seq": 3, "ts": 1790162772.1737, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 4, "ts": 1790162772.1777053, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "c20af9b760414f1090c3a5ad8eddaeb9", "elapsed_ms": 23.81, "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162772.4658806, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "8e5cd6a341594bdd95073d421409bc3a", "elapsed_ms": 2791.95, "scope": "custom_runner"}}
+{"seq": 3, "ts": 1790162772.5055063, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 4, "ts": 1790162772.5381343, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "1c0fb2c22e0d4d1e957b56f5b21c8c20", "scope": "custom_runner"}}
+{"seq": 5, "ts": 1790162772.5596871, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 6, "ts": 1790162772.5683892, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "1c0fb2c22e0d4d1e957b56f5b21c8c20", "elapsed_ms": 29.64, "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162773.030932, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "d7e83ecfc5b047098e20d76ef38d3703", "scope": "custom_runner"}}
+{"seq": 3, "ts": 1790162773.062022, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 4, "ts": 1790162773.070998, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "d7e83ecfc5b047098e20d76ef38d3703", "elapsed_ms": 40.29, "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162773.4013104, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "75b6080cdfa944df8c08feb09454c4b9", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162774.2874124, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "d5f1e5b6703b4e018839f937758aae58", "elapsed_ms": 2890.1, "scope": "custom_runner"}}
+{"seq": 3, "ts": 1790162774.3380969, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 1, "ts": 1790162774.3804522, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790162774.6757717, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "5893c2a2ad8f4099bae9bba530f2efed", "elapsed_ms": 3206.89, "scope": "custom_runner"}}
+{"seq": 4, "ts": 1790162774.7058651, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "8f4664eff3314790a70b0fa711e45441", "scope": "custom_runner"}}
+{"seq": 5, "ts": 1790162774.7348366, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 6, "ts": 1790162774.7448118, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "8f4664eff3314790a70b0fa711e45441", "elapsed_ms": 39.3, "scope": "custom_runner"}}
+{"seq": 7, "ts": 1790162774.785923, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "fb841eadfdc04948939509cb81daf9e0", "scope": "custom_runner"}}
+{"seq": 8, "ts": 1790162774.825463, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 9, "ts": 1790162774.8350139, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "fb841eadfdc04948939509cb81daf9e0", "elapsed_ms": 49.21, "scope": "custom_runner"}}
+{"seq": 7, "ts": 1790162775.3481674, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "606553fac8d14ebb9ce20cf14e33065a", "scope": "custom_runner"}}
+{"seq": 8, "ts": 1790162775.3859448, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 9, "ts": 1790162775.3939652, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "606553fac8d14ebb9ce20cf14e33065a", "elapsed_ms": 45.58, "scope": "custom_runner"}}
+{"seq": 3, "ts": 1790162776.4070008, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "75b6080cdfa944df8c08feb09454c4b9", "elapsed_ms": 3005.62, "scope": "custom_runner"}}
+{"seq": 4, "ts": 1790162776.4791481, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "971bccb622cb4ac6b70019a5d33cc1bd", "scope": "custom_runner"}}
+{"seq": 5, "ts": 1790162776.535595, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 6, "ts": 1790162776.5435736, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "971bccb622cb4ac6b70019a5d33cc1bd", "elapsed_ms": 64.03, "scope": "custom_runner"}}
+{"seq": 4, "ts": 1790162776.9140627, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "8c776fa9b22a462a91229ee3493c07c3", "scope": "custom_runner"}}
+{"seq": 5, "ts": 1790162776.9523423, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 6, "ts": 1790162776.964475, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "8c776fa9b22a462a91229ee3493c07c3", "elapsed_ms": 49.93, "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790162777.5904822, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "5aa2db2f0b7a4bbf9d3519d32fe07440", "scope": "custom_runner"}}
+{"seq": 3, "ts": 1790162780.410124, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "5aa2db2f0b7a4bbf9d3519d32fe07440", "elapsed_ms": 2819.95, "scope": "custom_runner"}}
+{"seq": 4, "ts": 1790162780.433863, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "725679d2944d4387a1fed947d60eb540", "scope": "custom_runner"}}
+{"seq": 5, "ts": 1790162780.4609554, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 6, "ts": 1790162780.4681356, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "725679d2944d4387a1fed947d60eb540", "elapsed_ms": 33.65, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790163099.4624724, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "1ed9bf1142884b73bc1e34f652a54478", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790163099.5171614, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790163099.5460615, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1206, "input_items": 1}}
+{"seq": 1, "ts": 1790163104.1409414, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "4275bdd18d8e4d5c806af58e7852bd58", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790163104.2179673, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790163104.254117, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1206, "input_items": 1}}
+{"seq": 1, "ts": 1790163105.1194892, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "7a948a4f6a9d41be9b5a436521ce8762", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790163105.229892, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790163105.294441, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1206, "input_items": 1}}
+{"seq": 4, "ts": 1790163108.8113298, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790163108.8259509, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "AssignmentsSpecialist"}}
+{"seq": 6, "ts": 1790163108.8323627, "kind": "handoff_arrive", "agent": "AssignmentsSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 7, "ts": 1790163108.8457022, "kind": "agent_start", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 8, "ts": 1790163108.8457022, "kind": "agent_hooks_start", "agent": "AssignmentsSpecialist", "detail": {"watched": "AssignmentsSpecialist", "scope": "agent_level"}}
+{"seq": 9, "ts": 1790163108.8679657, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 3}}
+{"seq": 10, "ts": 1790163108.873276, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 11, "ts": 1790163110.0748284, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 12, "ts": 1790163110.0778208, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 13, "ts": 1790163110.0893698, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_student_context"}}
+{"seq": 14, "ts": 1790163110.0893698, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_student_context"}}
+{"seq": 15, "ts": 1790163110.0975926, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 16, "ts": 1790163110.1047938, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_student_context"}}
+{"seq": 17, "ts": 1790163110.121697, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 5}}
+{"seq": 18, "ts": 1790163110.121697, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 19, "ts": 1790163111.3837209, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 20, "ts": 1790163111.3919327, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 21, "ts": 1790163111.3947287, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "list_courses"}}
+{"seq": 22, "ts": 1790163111.4042637, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "list_courses"}}
+{"seq": 23, "ts": 1790163111.4072568, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "list_courses", "result_type": "str"}}
+{"seq": 24, "ts": 1790163111.4152765, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "list_courses"}}
+{"seq": 25, "ts": 1790163111.4258037, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 7}}
+{"seq": 26, "ts": 1790163111.4313264, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 4, "ts": 1790163111.6960542, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790163111.7137523, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "AssignmentsSpecialist"}}
+{"seq": 6, "ts": 1790163111.7207744, "kind": "handoff_arrive", "agent": "AssignmentsSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 7, "ts": 1790163111.7370853, "kind": "agent_start", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 8, "ts": 1790163111.7370853, "kind": "agent_hooks_start", "agent": "AssignmentsSpecialist", "detail": {"watched": "AssignmentsSpecialist", "scope": "agent_level"}}
+{"seq": 9, "ts": 1790163111.754745, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 3}}
+{"seq": 10, "ts": 1790163111.754745, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 27, "ts": 1790163112.6939423, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 28, "ts": 1790163112.6963317, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 4, "ts": 1790163112.6963317, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 29, "ts": 1790163112.7074304, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course"}}
+{"seq": 30, "ts": 1790163112.7095034, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 31, "ts": 1790163112.7160249, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 32, "ts": 1790163112.7160249, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 5, "ts": 1790163112.7160249, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "AssignmentsSpecialist"}}
+{"seq": 6, "ts": 1790163112.7250922, "kind": "handoff_arrive", "agent": "AssignmentsSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 7, "ts": 1790163112.740741, "kind": "agent_start", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 33, "ts": 1790163112.740741, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 9}}
+{"seq": 8, "ts": 1790163112.740741, "kind": "agent_hooks_start", "agent": "AssignmentsSpecialist", "detail": {"watched": "AssignmentsSpecialist", "scope": "agent_level"}}
+{"seq": 34, "ts": 1790163112.740741, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 9, "ts": 1790163112.7599096, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 3}}
+{"seq": 10, "ts": 1790163112.7599096, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 11, "ts": 1790163113.0252888, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 12, "ts": 1790163113.0252888, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 13, "ts": 1790163113.040926, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_student_context"}}
+{"seq": 14, "ts": 1790163113.0461829, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_student_context"}}
+{"seq": 15, "ts": 1790163113.0546124, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 16, "ts": 1790163113.0546124, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_student_context"}}
+{"seq": 17, "ts": 1790163113.0753098, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 5}}
+{"seq": 18, "ts": 1790163113.0826278, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 11, "ts": 1790163114.005088, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 12, "ts": 1790163114.0091136, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 13, "ts": 1790163114.0171707, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_student_context"}}
+{"seq": 14, "ts": 1790163114.0251951, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_student_context"}}
+{"seq": 15, "ts": 1790163114.0251951, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 16, "ts": 1790163114.034789, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_student_context"}}
+{"seq": 17, "ts": 1790163114.0493147, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 5}}
+{"seq": 18, "ts": 1790163114.0524342, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 35, "ts": 1790163114.0806694, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 36, "ts": 1790163114.09631, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 37, "ts": 1790163114.1080375, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_assignment"}}
+{"seq": 38, "ts": 1790163114.1080375, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_assignment"}}
+{"seq": 39, "ts": 1790163114.1211827, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 40, "ts": 1790163114.1211827, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_assignment"}}
+{"seq": 41, "ts": 1790163114.1475356, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 11}}
+{"seq": 42, "ts": 1790163114.152375, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 19, "ts": 1790163114.3198621, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 20, "ts": 1790163114.3240867, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 21, "ts": 1790163114.3364131, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course"}}
+{"seq": 22, "ts": 1790163114.3364131, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 23, "ts": 1790163114.3515732, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 24, "ts": 1790163114.3557277, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 25, "ts": 1790163114.3721654, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 7}}
+{"seq": 26, "ts": 1790163114.3721654, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 19, "ts": 1790163115.3776174, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 20, "ts": 1790163115.3776174, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 21, "ts": 1790163115.3776174, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course"}}
+{"seq": 22, "ts": 1790163115.3932624, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 23, "ts": 1790163115.3932624, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 24, "ts": 1790163115.3932624, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 25, "ts": 1790163115.4094572, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 7}}
+{"seq": 26, "ts": 1790163115.4175835, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 27, "ts": 1790163115.6047592, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 28, "ts": 1790163115.6047592, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 29, "ts": 1790163115.6269183, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_assignment"}}
+{"seq": 30, "ts": 1790163115.6269183, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_assignment"}}
+{"seq": 31, "ts": 1790163115.6328733, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 32, "ts": 1790163115.6328733, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_assignment"}}
+{"seq": 33, "ts": 1790163115.6328733, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 9}}
+{"seq": 34, "ts": 1790163115.6328733, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 43, "ts": 1790163115.7336166, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 44, "ts": 1790163115.7336166, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 45, "ts": 1790163115.754272, "kind": "agent_end", "agent": "AssignmentsSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 46, "ts": 1790163115.7558277, "kind": "agent_hooks_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "output_type": "Ticket"}}
+{"seq": 47, "ts": 1790163115.7969952, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "1ed9bf1142884b73bc1e34f652a54478", "elapsed_ms": 16329.41, "scope": "custom_runner"}}
+{"seq": 27, "ts": 1790163116.961405, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 28, "ts": 1790163116.961405, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 29, "ts": 1790163116.9833298, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_assignment"}}
+{"seq": 30, "ts": 1790163116.9833298, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_assignment"}}
+{"seq": 31, "ts": 1790163116.997859, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 32, "ts": 1790163117.001987, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_assignment"}}
+{"seq": 33, "ts": 1790163117.0204697, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 9}}
+{"seq": 34, "ts": 1790163117.0204697, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 35, "ts": 1790163117.085979, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 36, "ts": 1790163117.085979, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 37, "ts": 1790163117.0986767, "kind": "agent_end", "agent": "AssignmentsSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 38, "ts": 1790163117.1048229, "kind": "agent_hooks_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "output_type": "Ticket"}}
+{"seq": 39, "ts": 1790163117.1422935, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "4275bdd18d8e4d5c806af58e7852bd58", "elapsed_ms": 12999.22, "scope": "custom_runner"}}
+{"seq": 35, "ts": 1790163118.9543917, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 36, "ts": 1790163118.9689126, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 37, "ts": 1790163118.9789407, "kind": "agent_end", "agent": "AssignmentsSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 38, "ts": 1790163118.9844675, "kind": "agent_hooks_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "output_type": "Ticket"}}
+{"seq": 39, "ts": 1790163119.0183675, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "7a948a4f6a9d41be9b5a436521ce8762", "elapsed_ms": 13891.44, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790163213.0159, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "0dc4501736524c7cbaf506691019ceea", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790163213.067221, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790163213.097756, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1210, "input_items": 1}}
+{"seq": 1, "ts": 1790163214.6378741, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "9ab6fe6973d64cf8b8b76449a58fc05a", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790163214.6698647, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790163214.7046025, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1206, "input_items": 1}}
+{"seq": 4, "ts": 1790163219.988053, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790163219.9965386, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_scholarship_benefits"}}
+{"seq": 6, "ts": 1790163220.0047216, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_scholarship_benefits", "result_type": "str"}}
+{"seq": 7, "ts": 1790163220.0225732, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1210, "input_items": 3}}
+{"seq": 4, "ts": 1790163221.2384472, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790163221.2464805, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 6, "ts": 1790163221.2632723, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "9ab6fe6973d64cf8b8b76449a58fc05a", "elapsed_ms": 6628.06, "scope": "custom_runner"}}
+{"seq": 8, "ts": 1790163221.9689467, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 9, "ts": 1790163221.979306, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 10, "ts": 1790163222.009226, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "0dc4501736524c7cbaf506691019ceea", "elapsed_ms": 8994.72, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790163283.0784678, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "e0141977eff34156b1b0353613d1d4aa", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790163283.1416378, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790163283.1736224, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1206, "input_items": 1}}
+{"seq": 4, "ts": 1790163289.8745525, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790163289.9172382, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "CareersSpecialist"}}
+{"seq": 6, "ts": 1790163289.9172382, "kind": "handoff_arrive", "agent": "CareersSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 7, "ts": 1790163289.9322634, "kind": "agent_start", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 8, "ts": 1790163289.9479117, "kind": "llm_start", "agent": "CareersSpecialist", "detail": {"system_prompt_chars": 489, "input_items": 3}}
+{"seq": 9, "ts": 1790163292.1432896, "kind": "llm_end", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 10, "ts": 1790163292.1533139, "kind": "agent_end", "agent": "CareersSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 11, "ts": 1790163292.1824238, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "e0141977eff34156b1b0353613d1d4aa", "elapsed_ms": 9090.85, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790163409.1788948, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "7d58f31a87564b0b8c1d28d2edb91a56", "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790163412.170608, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "7f20568c1aaf4a4c81b2b577c4daa9c0", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790163412.2203097, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790163412.2558682, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1206, "input_items": 1}}
+{"seq": 1, "ts": 1790163415.63803, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "5e65f66030ca4e3c9cdbabbc04ad3447", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790163416.4142902, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "7d58f31a87564b0b8c1d28d2edb91a56", "elapsed_ms": 7239.64, "scope": "custom_runner"}}
+{"seq": 4, "ts": 1790163418.6257656, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790163418.6567152, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "close_ticket"}}
+{"seq": 6, "ts": 1790163418.6652038, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "close_ticket", "result_type": "dict"}}
+{"seq": 7, "ts": 1790163418.6733837, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 8, "ts": 1790163418.7057333, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "7f20568c1aaf4a4c81b2b577c4daa9c0", "elapsed_ms": 6528.92, "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790163422.3174655, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "5e65f66030ca4e3c9cdbabbc04ad3447", "elapsed_ms": 6687.98, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790163509.6868722, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "f4680920577d4c67b1fa1ee0138ac74e", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790163509.7288284, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790163509.7545433, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "f4680920577d4c67b1fa1ee0138ac74e", "elapsed_ms": 62.95, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790163871.8008728, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "171aaf5263bf4096aba7083051d5034c", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790163871.8059828, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790163871.8080924, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1206, "input_items": 1}}
+{"seq": 4, "ts": 1790163875.2544408, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790163875.2592673, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "AssignmentsSpecialist"}}
+{"seq": 6, "ts": 1790163875.2592673, "kind": "handoff_arrive", "agent": "AssignmentsSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 7, "ts": 1790163875.2592673, "kind": "agent_start", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 8, "ts": 1790163875.2592673, "kind": "agent_hooks_start", "agent": "AssignmentsSpecialist", "detail": {"watched": "AssignmentsSpecialist", "scope": "agent_level"}}
+{"seq": 9, "ts": 1790163875.2592673, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 3}}
+{"seq": 10, "ts": 1790163875.2592673, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 11, "ts": 1790163876.6926343, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 12, "ts": 1790163876.6926343, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 13, "ts": 1790163876.6926343, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_student_context"}}
+{"seq": 14, "ts": 1790163876.6926343, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_student_context"}}
+{"seq": 15, "ts": 1790163876.6926343, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 16, "ts": 1790163876.6926343, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_student_context"}}
+{"seq": 17, "ts": 1790163876.6926343, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 5}}
+{"seq": 18, "ts": 1790163876.6926343, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 19, "ts": 1790163878.3458502, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 20, "ts": 1790163878.3458502, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 21, "ts": 1790163878.347842, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course"}}
+{"seq": 22, "ts": 1790163878.347842, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 23, "ts": 1790163878.34884, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 24, "ts": 1790163878.34884, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 25, "ts": 1790163878.3518336, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 7}}
+{"seq": 26, "ts": 1790163878.3518336, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 27, "ts": 1790163881.0540855, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 28, "ts": 1790163881.0540855, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 29, "ts": 1790163881.0555923, "kind": "agent_end", "agent": "AssignmentsSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 30, "ts": 1790163881.056513, "kind": "agent_hooks_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "output_type": "Ticket"}}
+{"seq": 31, "ts": 1790163881.0577712, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "171aaf5263bf4096aba7083051d5034c", "elapsed_ms": 9259.07, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790164373.9492183, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "ad76df085ea843fd927096313e6652bd", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790164373.954573, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790164373.954573, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1206, "input_items": 1}}
+{"seq": 4, "ts": 1790164375.5709813, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790164375.5799878, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_student_context"}}
+{"seq": 6, "ts": 1790164375.5799878, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 7, "ts": 1790164375.5799878, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1206, "input_items": 3}}
+{"seq": 8, "ts": 1790164377.0701005, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 9, "ts": 1790164377.0713053, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "list_courses"}}
+{"seq": 10, "ts": 1790164377.0722828, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "list_courses", "result_type": "str"}}
+{"seq": 11, "ts": 1790164377.0742779, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1206, "input_items": 5}}
+{"seq": 12, "ts": 1790164378.7799895, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 13, "ts": 1790164378.7799895, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "close_ticket"}}
+{"seq": 14, "ts": 1790164378.7799895, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "close_ticket", "result_type": "dict"}}
+{"seq": 15, "ts": 1790164378.7799895, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 16, "ts": 1790164378.786398, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "ad76df085ea843fd927096313e6652bd", "elapsed_ms": 4837.54, "scope": "custom_runner"}}
+{"seq": 17, "ts": 1790164391.764173, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "62ed597db07046e19b815729048b020f", "scope": "custom_runner"}}
+{"seq": 18, "ts": 1790164391.7674463, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 19, "ts": 1790164391.7674463, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1206, "input_items": 8}}
+{"seq": 20, "ts": 1790164393.6552656, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 21, "ts": 1790164393.656227, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "close_ticket"}}
+{"seq": 22, "ts": 1790164393.6572216, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "close_ticket", "result_type": "dict"}}
+{"seq": 23, "ts": 1790164393.6572216, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 24, "ts": 1790164393.6592188, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "62ed597db07046e19b815729048b020f", "elapsed_ms": 1895.5, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790164824.4543374, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "6e0e7fb76f7e4f3d9ce13cc42c09b8de", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790164824.4582603, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790164824.4622445, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1209, "input_items": 1}}
+{"seq": 4, "ts": 1790164828.3541312, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790164828.3541312, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_course"}}
+{"seq": 6, "ts": 1790164828.3541312, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 7, "ts": 1790164828.3541312, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1209, "input_items": 3}}
+{"seq": 8, "ts": 1790164830.9612272, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 9, "ts": 1790164830.9612272, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 10, "ts": 1790164830.9612272, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "6e0e7fb76f7e4f3d9ce13cc42c09b8de", "elapsed_ms": 6512.23, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790165193.8150592, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "1665f5fff43041ed87a6b981ef8793f1", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790165193.8150592, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790165193.8150592, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1381, "input_items": 1}}
+{"seq": 4, "ts": 1790165195.597182, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790165195.597182, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_student_context"}}
+{"seq": 6, "ts": 1790165195.597182, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 7, "ts": 1790165195.597182, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1381, "input_items": 3}}
+{"seq": 8, "ts": 1790165197.7170992, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 9, "ts": 1790165197.7190619, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_course"}}
+{"seq": 10, "ts": 1790165197.7200582, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 11, "ts": 1790165197.7210903, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1381, "input_items": 5}}
+{"seq": 12, "ts": 1790165199.8491046, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 13, "ts": 1790165199.8491046, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_assignment"}}
+{"seq": 14, "ts": 1790165199.8491046, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_assignment"}}
+{"seq": 15, "ts": 1790165199.8541138, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 16, "ts": 1790165199.8541138, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 17, "ts": 1790165199.8541138, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1381, "input_items": 9}}
+{"seq": 18, "ts": 1790165201.5293865, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 19, "ts": 1790165201.5293865, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 20, "ts": 1790165201.5293865, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "1665f5fff43041ed87a6b981ef8793f1", "elapsed_ms": 7718.4, "scope": "custom_runner"}}
+{"seq": 21, "ts": 1790165275.9380004, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "879aad7a812d4b43adcbf0baea512cd3", "scope": "custom_runner"}}
+{"seq": 22, "ts": 1790165275.941306, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 23, "ts": 1790165275.941306, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1345, "input_items": 1}}
+{"seq": 24, "ts": 1790165277.1267078, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 25, "ts": 1790165277.1267078, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_student_context"}}
+{"seq": 26, "ts": 1790165277.1267078, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 27, "ts": 1790165277.1267078, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1345, "input_items": 3}}
+{"seq": 28, "ts": 1790165279.269015, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 29, "ts": 1790165279.269015, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "AssignmentsSpecialist"}}
+{"seq": 30, "ts": 1790165279.269015, "kind": "handoff_arrive", "agent": "AssignmentsSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 31, "ts": 1790165279.2750583, "kind": "agent_start", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 32, "ts": 1790165279.2750583, "kind": "agent_hooks_start", "agent": "AssignmentsSpecialist", "detail": {"watched": "AssignmentsSpecialist", "scope": "agent_level"}}
+{"seq": 33, "ts": 1790165279.2759707, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 5}}
+{"seq": 34, "ts": 1790165279.2759707, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 35, "ts": 1790165280.8687973, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 36, "ts": 1790165280.8754354, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 37, "ts": 1790165280.8754354, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "list_courses"}}
+{"seq": 38, "ts": 1790165280.8754354, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "list_courses"}}
+{"seq": 39, "ts": 1790165280.8754354, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "list_courses", "result_type": "str"}}
+{"seq": 40, "ts": 1790165280.8754354, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "list_courses"}}
+{"seq": 41, "ts": 1790165280.8754354, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 7}}
+{"seq": 42, "ts": 1790165280.8754354, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 43, "ts": 1790165281.9083402, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 44, "ts": 1790165281.9083402, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 45, "ts": 1790165281.9083402, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course"}}
+{"seq": 46, "ts": 1790165281.9083402, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 47, "ts": 1790165281.9083402, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 48, "ts": 1790165281.9083402, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 49, "ts": 1790165281.9083402, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 9}}
+{"seq": 50, "ts": 1790165281.9083402, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 51, "ts": 1790165284.240845, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 52, "ts": 1790165284.240845, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 53, "ts": 1790165284.2543528, "kind": "agent_end", "agent": "AssignmentsSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 54, "ts": 1790165284.2543528, "kind": "agent_hooks_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "output_type": "Ticket"}}
+{"seq": 55, "ts": 1790165284.2575283, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "879aad7a812d4b43adcbf0baea512cd3", "elapsed_ms": 8321.35, "scope": "custom_runner"}}
+{"seq": 56, "ts": 1790165315.886762, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "fc5fe69fae214f478156e403f63d1aac", "scope": "custom_runner"}}
+{"seq": 57, "ts": 1790165315.8905728, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 58, "ts": 1790165315.8922434, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1382, "input_items": 1}}
+{"seq": 59, "ts": 1790165317.2148366, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 60, "ts": 1790165317.2148366, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "AssignmentsSpecialist"}}
+{"seq": 61, "ts": 1790165317.2148366, "kind": "handoff_arrive", "agent": "AssignmentsSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 62, "ts": 1790165317.2215195, "kind": "agent_start", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 63, "ts": 1790165317.2215195, "kind": "agent_hooks_start", "agent": "AssignmentsSpecialist", "detail": {"watched": "AssignmentsSpecialist", "scope": "agent_level"}}
+{"seq": 64, "ts": 1790165317.2215195, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 3}}
+{"seq": 65, "ts": 1790165317.2215195, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 66, "ts": 1790165318.414489, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 67, "ts": 1790165318.414489, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 68, "ts": 1790165318.414489, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_student_context"}}
+{"seq": 69, "ts": 1790165318.414489, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_student_context"}}
+{"seq": 70, "ts": 1790165318.414489, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 71, "ts": 1790165318.414489, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_student_context"}}
+{"seq": 72, "ts": 1790165318.421174, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 5}}
+{"seq": 73, "ts": 1790165318.421174, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 74, "ts": 1790165320.387513, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 75, "ts": 1790165320.387513, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 76, "ts": 1790165320.387513, "kind": "tool_start", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course"}}
+{"seq": 77, "ts": 1790165320.387513, "kind": "agent_hooks_tool_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 78, "ts": 1790165320.387513, "kind": "tool_end", "agent": "AssignmentsSpecialist", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 79, "ts": 1790165320.387513, "kind": "agent_hooks_tool_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "tool": "get_course"}}
+{"seq": 80, "ts": 1790165320.387513, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 422, "input_items": 7}}
+{"seq": 81, "ts": 1790165320.4031336, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 82, "ts": 1790165322.2293022, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 83, "ts": 1790165322.2293022, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 84, "ts": 1790165322.2353113, "kind": "agent_end", "agent": "AssignmentsSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 85, "ts": 1790165322.2353113, "kind": "agent_hooks_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "output_type": "Ticket"}}
+{"seq": 86, "ts": 1790165322.23649, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "fc5fe69fae214f478156e403f63d1aac", "elapsed_ms": 6352.68, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790165630.5568898, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "f19e5123e553429e92e36f303552ea20", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790165630.5621705, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790165630.5662208, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1498, "input_items": 1}}
+{"seq": 4, "ts": 1790165632.6975348, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790165632.6975348, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_student_context"}}
+{"seq": 6, "ts": 1790165632.6975348, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 7, "ts": 1790165632.70454, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1498, "input_items": 3}}
+{"seq": 8, "ts": 1790165633.8735094, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 9, "ts": 1790165633.8795195, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_course"}}
+{"seq": 10, "ts": 1790165633.880285, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 11, "ts": 1790165633.882286, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1498, "input_items": 5}}
+{"seq": 12, "ts": 1790165636.964795, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 13, "ts": 1790165636.964795, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "close_ticket"}}
+{"seq": 14, "ts": 1790165636.964795, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "close_ticket", "result_type": "dict"}}
+{"seq": 15, "ts": 1790165636.964795, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 16, "ts": 1790165636.9792666, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "f19e5123e553429e92e36f303552ea20", "elapsed_ms": 6421.58, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790165913.14139, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "ff162b14a60942868523a5915da347a2", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790165913.1544383, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790165913.1596642, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 1}}
+{"seq": 4, "ts": 1790165916.4307382, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790165916.4307382, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_student_context"}}
+{"seq": 6, "ts": 1790165916.4307382, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 7, "ts": 1790165916.4307382, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 3}}
+{"seq": 8, "ts": 1790165918.0132656, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 9, "ts": 1790165918.0152605, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_course"}}
+{"seq": 10, "ts": 1790165918.0162573, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 11, "ts": 1790165918.01925, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 5}}
+{"seq": 12, "ts": 1790165919.824508, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 13, "ts": 1790165919.824508, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_assignment"}}
+{"seq": 14, "ts": 1790165919.824508, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_assignment"}}
+{"seq": 15, "ts": 1790165919.824508, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 16, "ts": 1790165919.824508, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 17, "ts": 1790165919.8411295, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 9}}
+{"seq": 18, "ts": 1790165920.8731372, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 19, "ts": 1790165920.8764088, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "AssignmentsSpecialist"}}
+{"seq": 20, "ts": 1790165920.8774438, "kind": "handoff_arrive", "agent": "AssignmentsSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 21, "ts": 1790165920.8784091, "kind": "agent_start", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 22, "ts": 1790165920.8794434, "kind": "agent_hooks_start", "agent": "AssignmentsSpecialist", "detail": {"watched": "AssignmentsSpecialist", "scope": "agent_level"}}
+{"seq": 23, "ts": 1790165920.8804405, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 540, "input_items": 11}}
+{"seq": 24, "ts": 1790165920.8814328, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 25, "ts": 1790165924.2601838, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 26, "ts": 1790165924.2611814, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 27, "ts": 1790165924.2621794, "kind": "agent_end", "agent": "AssignmentsSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 28, "ts": 1790165924.2621794, "kind": "agent_hooks_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "output_type": "Ticket"}}
+{"seq": 29, "ts": 1790165924.265171, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "ff162b14a60942868523a5915da347a2", "elapsed_ms": 11115.64, "scope": "custom_runner"}}
+{"seq": 30, "ts": 1790165924.2681627, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "4f467b78ba074911a77a6a0de350b81b", "scope": "custom_runner"}}
+{"seq": 31, "ts": 1790165924.2720692, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 32, "ts": 1790165924.2731082, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 1}}
+{"seq": 33, "ts": 1790165925.3241048, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 34, "ts": 1790165925.3241048, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_student_context"}}
+{"seq": 35, "ts": 1790165925.3241048, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 36, "ts": 1790165925.3241048, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 3}}
+{"seq": 37, "ts": 1790165926.3811655, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 38, "ts": 1790165926.3831584, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_course"}}
+{"seq": 39, "ts": 1790165926.3841558, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 40, "ts": 1790165926.3871477, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 5}}
+{"seq": 41, "ts": 1790165927.978867, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 42, "ts": 1790165927.978867, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_assignment"}}
+{"seq": 43, "ts": 1790165927.978867, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 44, "ts": 1790165927.978867, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 7}}
+{"seq": 45, "ts": 1790165929.6949608, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 46, "ts": 1790165929.695923, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 47, "ts": 1790165929.6989434, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "4f467b78ba074911a77a6a0de350b81b", "elapsed_ms": 5430.04, "scope": "custom_runner"}}
+{"seq": 48, "ts": 1790165929.7023149, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "61c43c4c02074d6ebf170fa0d1614945", "scope": "custom_runner"}}
+{"seq": 49, "ts": 1790165929.7062356, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 50, "ts": 1790165929.7082298, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 1}}
+{"seq": 51, "ts": 1790165930.5596654, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 52, "ts": 1790165930.5606313, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "CareersSpecialist"}}
+{"seq": 53, "ts": 1790165930.5606313, "kind": "handoff_arrive", "agent": "CareersSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 54, "ts": 1790165930.562626, "kind": "agent_start", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 55, "ts": 1790165930.5636227, "kind": "llm_start", "agent": "CareersSpecialist", "detail": {"system_prompt_chars": 576, "input_items": 3}}
+{"seq": 56, "ts": 1790165932.535423, "kind": "llm_end", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 57, "ts": 1790165932.5364199, "kind": "agent_end", "agent": "CareersSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 58, "ts": 1790165932.5389946, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "61c43c4c02074d6ebf170fa0d1614945", "elapsed_ms": 2839.51, "scope": "custom_runner"}}
+{"seq": 59, "ts": 1790165932.5389946, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "299bdb6aacc049a58f658ff654a66c6d", "scope": "custom_runner"}}
+{"seq": 60, "ts": 1790165932.5524828, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 61, "ts": 1790165932.5545163, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 1}}
+{"seq": 62, "ts": 1790165933.6076741, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 63, "ts": 1790165933.6076741, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_course"}}
+{"seq": 64, "ts": 1790165933.6076741, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 65, "ts": 1790165933.6076741, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 3}}
+{"seq": 66, "ts": 1790165934.9359982, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 67, "ts": 1790165934.937282, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "summarise_policy"}}
+{"seq": 68, "ts": 1790165934.937282, "kind": "runner_start", "agent": "Summariser", "detail": {"request_id": "5c78101d28e0440391ed4c695f8b41de", "scope": "custom_runner"}}
+{"seq": 69, "ts": 1790165936.426919, "kind": "runner_end", "agent": "Summariser", "detail": {"request_id": "5c78101d28e0440391ed4c695f8b41de", "elapsed_ms": 1489.3, "scope": "custom_runner"}}
+{"seq": 70, "ts": 1790165936.426919, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "summarise_policy", "result_type": "str"}}
+{"seq": 71, "ts": 1790165936.426919, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 5}}
+{"seq": 72, "ts": 1790165938.4717638, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 73, "ts": 1790165938.4717638, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 74, "ts": 1790165938.4717638, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "299bdb6aacc049a58f658ff654a66c6d", "elapsed_ms": 5936.9, "scope": "custom_runner"}}
+{"seq": 75, "ts": 1790165938.4867523, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "eaf087a932a944639b2e3a9b6a3ba79a", "scope": "custom_runner"}}
+{"seq": 76, "ts": 1790165938.4937372, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 77, "ts": 1790165938.4967296, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1976, "input_items": 1}}
+{"seq": 78, "ts": 1790165940.2279956, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 79, "ts": 1790165940.2279956, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_scholarship_benefits"}}
+{"seq": 80, "ts": 1790165940.2341871, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_scholarship_benefits", "result_type": "str"}}
+{"seq": 81, "ts": 1790165940.2371767, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1976, "input_items": 3}}
+{"seq": 82, "ts": 1790165942.0169125, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 83, "ts": 1790165942.0184557, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "close_ticket"}}
+{"seq": 84, "ts": 1790165942.0194552, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "close_ticket", "result_type": "dict"}}
+{"seq": 85, "ts": 1790165942.0204525, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 86, "ts": 1790165942.068687, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "eaf087a932a944639b2e3a9b6a3ba79a", "elapsed_ms": 3593.16, "scope": "custom_runner"}}
+{"seq": 87, "ts": 1790165942.0845792, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "07258e575980411898defdd78d6a5c21", "scope": "custom_runner"}}
+{"seq": 88, "ts": 1790165942.08957, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 89, "ts": 1790165942.0915663, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 1}}
+{"seq": 90, "ts": 1790165943.4414825, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 91, "ts": 1790165943.4424803, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_student_context"}}
+{"seq": 92, "ts": 1790165943.4424803, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 93, "ts": 1790165943.4444742, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 3}}
+{"seq": 94, "ts": 1790165944.7657042, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 95, "ts": 1790165944.7657042, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_course"}}
+{"seq": 96, "ts": 1790165944.7657042, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 97, "ts": 1790165944.7657042, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 5}}
+{"seq": 98, "ts": 1790165946.2205527, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 99, "ts": 1790165946.2220612, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_assignment"}}
+{"seq": 100, "ts": 1790165946.2220612, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_assignment"}}
+{"seq": 101, "ts": 1790165946.224059, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 102, "ts": 1790165946.224059, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 103, "ts": 1790165946.2260866, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 9}}
+{"seq": 104, "ts": 1790165948.2820654, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 105, "ts": 1790165948.2830293, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 106, "ts": 1790165948.2880166, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "07258e575980411898defdd78d6a5c21", "elapsed_ms": 6203.62, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790165987.4028237, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "ea2fe6bac2be4d7ca53a8a7bce107825", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790165987.4084399, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790165987.4121406, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "ea2fe6bac2be4d7ca53a8a7bce107825", "elapsed_ms": 9.77, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790166159.8068945, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "e660bde651db4f52a7e72d359f6a3c0e", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790166159.812914, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790166159.812914, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 1}}
+{"seq": 4, "ts": 1790166161.7043128, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790166161.7043128, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_student_context"}}
+{"seq": 6, "ts": 1790166161.7043128, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_student_context", "result_type": "str"}}
+{"seq": 7, "ts": 1790166161.7043128, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 3}}
+{"seq": 8, "ts": 1790166163.3821678, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 9, "ts": 1790166163.3821678, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_course"}}
+{"seq": 10, "ts": 1790166163.3821678, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 11, "ts": 1790166163.3821678, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 5}}
+{"seq": 12, "ts": 1790166164.8405504, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 13, "ts": 1790166164.8405504, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_assignment"}}
+{"seq": 14, "ts": 1790166164.8405504, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_assignment"}}
+{"seq": 15, "ts": 1790166164.8405504, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 16, "ts": 1790166164.8405504, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_assignment", "result_type": "str"}}
+{"seq": 17, "ts": 1790166164.8479273, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1979, "input_items": 9}}
+{"seq": 18, "ts": 1790166166.396988, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 19, "ts": 1790166166.396988, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "AssignmentsSpecialist"}}
+{"seq": 20, "ts": 1790166166.396988, "kind": "handoff_arrive", "agent": "AssignmentsSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 21, "ts": 1790166166.396988, "kind": "agent_start", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 22, "ts": 1790166166.396988, "kind": "agent_hooks_start", "agent": "AssignmentsSpecialist", "detail": {"watched": "AssignmentsSpecialist", "scope": "agent_level"}}
+{"seq": 23, "ts": 1790166166.4044948, "kind": "llm_start", "agent": "AssignmentsSpecialist", "detail": {"system_prompt_chars": 540, "input_items": 11}}
+{"seq": 24, "ts": 1790166166.4044948, "kind": "agent_hooks_llm_start", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 25, "ts": 1790166168.5220778, "kind": "agent_hooks_llm_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level"}}
+{"seq": 26, "ts": 1790166168.5220778, "kind": "llm_end", "agent": "AssignmentsSpecialist", "detail": {}}
+{"seq": 27, "ts": 1790166168.5220778, "kind": "agent_end", "agent": "AssignmentsSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 28, "ts": 1790166168.5220778, "kind": "agent_hooks_end", "agent": "AssignmentsSpecialist", "detail": {"scope": "agent_level", "output_type": "Ticket"}}
+{"seq": 29, "ts": 1790166168.5220778, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "e660bde651db4f52a7e72d359f6a3c0e", "elapsed_ms": 8719.65, "scope": "custom_runner"}}
+{"seq": 1, "ts": 1790166767.4924898, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "84223ccf9f0a4a9b9ce0e87e2b54413f", "scope": "custom_runner"}}
+{"seq": 2, "ts": 1790166767.4968483, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 3, "ts": 1790166767.4968483, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 1}}
+{"seq": 4, "ts": 1790166769.832343, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 5, "ts": 1790166769.832343, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "get_course"}}
+{"seq": 6, "ts": 1790166769.832343, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "get_course", "result_type": "str"}}
+{"seq": 7, "ts": 1790166769.832343, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 3}}
+{"seq": 8, "ts": 1790166772.3082798, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 9, "ts": 1790166772.3092842, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 10, "ts": 1790166772.3112726, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "84223ccf9f0a4a9b9ce0e87e2b54413f", "elapsed_ms": 4817.96, "scope": "custom_runner"}}
+{"seq": 11, "ts": 1790166799.6416302, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "d30827fb29d2411280bbdc2f2429cdb3", "scope": "custom_runner"}}
+{"seq": 12, "ts": 1790166799.6453547, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 13, "ts": 1790166799.646791, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 5}}
+{"seq": 14, "ts": 1790166801.904431, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 15, "ts": 1790166801.904431, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "CareersSpecialist"}}
+{"seq": 16, "ts": 1790166801.904431, "kind": "handoff_arrive", "agent": "CareersSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 17, "ts": 1790166801.904431, "kind": "agent_start", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 18, "ts": 1790166801.904431, "kind": "llm_start", "agent": "CareersSpecialist", "detail": {"system_prompt_chars": 576, "input_items": 7}}
+{"seq": 19, "ts": 1790166804.2884202, "kind": "llm_end", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 20, "ts": 1790166804.2884202, "kind": "agent_end", "agent": "CareersSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 21, "ts": 1790166804.2916205, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "d30827fb29d2411280bbdc2f2429cdb3", "elapsed_ms": 4649.21, "scope": "custom_runner"}}
+{"seq": 22, "ts": 1790166826.565013, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "e667c92a23034c8799986846d0450ebc", "scope": "custom_runner"}}
+{"seq": 23, "ts": 1790166826.5684927, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 24, "ts": 1790166826.56992, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 9}}
+{"seq": 25, "ts": 1790166828.138634, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 26, "ts": 1790166828.140665, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "CareersSpecialist"}}
+{"seq": 27, "ts": 1790166828.140665, "kind": "handoff_arrive", "agent": "CareersSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 28, "ts": 1790166828.1416302, "kind": "agent_start", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 29, "ts": 1790166828.1426528, "kind": "llm_start", "agent": "CareersSpecialist", "detail": {"system_prompt_chars": 576, "input_items": 11}}
+{"seq": 30, "ts": 1790166830.1548712, "kind": "llm_end", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 31, "ts": 1790166830.1548712, "kind": "agent_end", "agent": "CareersSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 32, "ts": 1790166830.1644113, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "e667c92a23034c8799986846d0450ebc", "elapsed_ms": 3599.26, "scope": "custom_runner"}}
+{"seq": 33, "ts": 1790166859.8707383, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "8d8002abe5244214a419ea85650be745", "scope": "custom_runner"}}
+{"seq": 34, "ts": 1790166859.8753448, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 35, "ts": 1790166859.8761818, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 13}}
+{"seq": 36, "ts": 1790166861.0966275, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 37, "ts": 1790166861.0966275, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "CareersSpecialist"}}
+{"seq": 38, "ts": 1790166861.0966275, "kind": "handoff_arrive", "agent": "CareersSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 39, "ts": 1790166861.0966275, "kind": "agent_start", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 40, "ts": 1790166861.1042118, "kind": "llm_start", "agent": "CareersSpecialist", "detail": {"system_prompt_chars": 576, "input_items": 15}}
+{"seq": 41, "ts": 1790166863.6944351, "kind": "llm_end", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 42, "ts": 1790166863.6948566, "kind": "agent_end", "agent": "CareersSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 43, "ts": 1790166863.6948566, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "8d8002abe5244214a419ea85650be745", "elapsed_ms": 3827.05, "scope": "custom_runner"}}
+{"seq": 44, "ts": 1790166891.5500925, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "afe49073b1214847874cbc3675696ef0", "scope": "custom_runner"}}
+{"seq": 45, "ts": 1790166891.5554268, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 46, "ts": 1790166891.5605743, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 17}}
+{"seq": 47, "ts": 1790166893.0209143, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 48, "ts": 1790166893.0209143, "kind": "handoff", "agent": "OpsDesk", "detail": {"to": "CareersSpecialist"}}
+{"seq": 49, "ts": 1790166893.0209143, "kind": "handoff_arrive", "agent": "CareersSpecialist", "detail": {"from": "OpsDesk"}}
+{"seq": 50, "ts": 1790166893.0209143, "kind": "agent_start", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 51, "ts": 1790166893.0209143, "kind": "llm_start", "agent": "CareersSpecialist", "detail": {"system_prompt_chars": 576, "input_items": 19}}
+{"seq": 52, "ts": 1790166896.4905977, "kind": "llm_end", "agent": "CareersSpecialist", "detail": {}}
+{"seq": 53, "ts": 1790166896.4905977, "kind": "agent_end", "agent": "CareersSpecialist", "detail": {"output_type": "Ticket"}}
+{"seq": 54, "ts": 1790166896.5041904, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "afe49073b1214847874cbc3675696ef0", "elapsed_ms": 4953.65, "scope": "custom_runner"}}
+{"seq": 55, "ts": 1790166912.1141562, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "38b77a9fbf014c86aa5fb4c6fd00dae3", "scope": "custom_runner"}}
+{"seq": 56, "ts": 1790166912.119605, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 57, "ts": 1790166912.1209612, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 21}}
+{"seq": 58, "ts": 1790166913.59032, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 59, "ts": 1790166913.59032, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "summarise_policy"}}
+{"seq": 60, "ts": 1790166913.59032, "kind": "runner_start", "agent": "Summariser", "detail": {"request_id": "66a184926c2d44738c7458ea19267560", "scope": "custom_runner"}}
+{"seq": 61, "ts": 1790166914.7149467, "kind": "runner_end", "agent": "Summariser", "detail": {"request_id": "66a184926c2d44738c7458ea19267560", "elapsed_ms": 1121.43, "scope": "custom_runner"}}
+{"seq": 62, "ts": 1790166914.7149467, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "summarise_policy", "result_type": "str"}}
+{"seq": 63, "ts": 1790166914.7149467, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 23}}
+{"seq": 64, "ts": 1790166916.6429179, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 65, "ts": 1790166916.6429179, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 66, "ts": 1790166916.6429179, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "38b77a9fbf014c86aa5fb4c6fd00dae3", "elapsed_ms": 4533.72, "scope": "custom_runner"}}
+{"seq": 67, "ts": 1790166935.5960586, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "bf6c40dfe7514f079e0decfeb3f25d5e", "scope": "custom_runner"}}
+{"seq": 68, "ts": 1790166935.6016183, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 69, "ts": 1790166935.604338, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 25}}
+{"seq": 70, "ts": 1790166938.4084368, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 71, "ts": 1790166938.4084368, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 72, "ts": 1790166938.4210162, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "bf6c40dfe7514f079e0decfeb3f25d5e", "elapsed_ms": 2823.94, "scope": "custom_runner"}}
+{"seq": 73, "ts": 1790166953.6953816, "kind": "runner_start", "agent": "OpsDesk", "detail": {"request_id": "d24b8cbcccf24ab49d9a6575617ef684", "scope": "custom_runner"}}
+{"seq": 74, "ts": 1790166953.7047389, "kind": "agent_start", "agent": "OpsDesk", "detail": {}}
+{"seq": 75, "ts": 1790166953.7047389, "kind": "llm_start", "agent": "OpsDesk", "detail": {"system_prompt_chars": 1843, "input_items": 27}}
+{"seq": 76, "ts": 1790166955.8779655, "kind": "llm_end", "agent": "OpsDesk", "detail": {}}
+{"seq": 77, "ts": 1790166955.8779655, "kind": "tool_start", "agent": "OpsDesk", "detail": {"tool": "close_ticket"}}
+{"seq": 78, "ts": 1790166955.8779655, "kind": "tool_end", "agent": "OpsDesk", "detail": {"tool": "close_ticket", "result_type": "dict"}}
+{"seq": 79, "ts": 1790166955.8779655, "kind": "agent_end", "agent": "OpsDesk", "detail": {"output_type": "Ticket"}}
+{"seq": 80, "ts": 1790166955.8867087, "kind": "runner_end", "agent": "OpsDesk", "detail": {"request_id": "d24b8cbcccf24ab49d9a6575617ef684", "elapsed_ms": 2190.87, "scope": "custom_runner"}}

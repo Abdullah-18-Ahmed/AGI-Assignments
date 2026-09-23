@@ -1,0 +1,67 @@
+{
+  "courses": [
+    {
+      "id": "agentic-ai-w4",
+      "title": "Agentic AI - weekdays batch 4",
+      "schedule": "Mon-Thu, 7-9pm",
+      "policies": {
+        "late_submission": "48 hours, 20% penalty",
+        "attendance": "Minimum 70% to sit finals"
+      },
+      "assignments": [
+        {
+          "id": "a1",
+          "title": "Tool-calling basics",
+          "due": "2026-09-25"
+        },
+        {
+          "id": "a3",
+          "title": "First coded agent",
+          "due": "2026-10-02"
+        }
+      ]
+    },
+    {
+      "id": "data-eng-we2",
+      "title": "Data Engineering - weekend batch 2",
+      "schedule": "Sat-Sun, 10am-2pm",
+      "policies": {
+        "late_submission": "24 hours, 10% penalty",
+        "labs": "Lab reports due within one week of session"
+      },
+      "assignments": [
+        {
+          "id": "d1",
+          "title": "ETL pipeline sketch",
+          "due": "2026-09-27"
+        },
+        {
+          "id": "d2",
+          "title": "Warehouse modeling exercise",
+          "due": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "genai-evening-b1",
+      "title": "Generative AI - evening batch 1",
+      "schedule": "Tue-Fri, 8-10pm",
+      "policies": {
+        "late_submission": "No late submission after due datetime",
+        "plagiarism": "Zero tolerance; reported to academy office"
+      },
+      "assignments": [
+        {
+          "id": "p1",
+          "title": "Prompt evaluation harness",
+          "due": "2026-09-30"
+        },
+        {
+          "id": "m1",
+          "title": "Capstone proposal",
+          "due": "2026-10-18"
+        }
+      ]
+    }
+  ]
+}
