@@ -4,87 +4,96 @@ Behavioral specification. What the Desk does, stated as behavior.
 
 ## Functional Requirements
 
-### FR-1 — Diff intake and file splitting
-The Desk reads a unified diff from a path given on the command line. Before any model sees the input, the diff is split into per-file chunks. The entry point is asynchronous. An empty or malformed diff produces a user-facing message, never a traceback. The model is `gpt-4o-mini`, configured on the agent itself. Nothing in the code sets a global default client.
+### FR-1 — A diff goes in, split by file
+The Desk reads a unified diff from a path given on the command line and splits it into per-file chunks before any model sees it. The model is `gpt-4o-mini`, configured on the agent itself. The entry point is asynchronous. An empty or malformed diff is reported as a message, not a traceback. Nothing in the code sets a global default client.
 
 **Done when:** a two-file diff produces two chunks; an empty or malformed diff is reported as a message; grepping the code finds no global default client.
 
-### FR-2 — Repository rules in context, not in prompts
-A `ReviewContext` dataclass is passed to every run and read by tools. It carries `repo`, `language`, `ruleset_id`, and `strictness`. It never appears in prompt text.
+### FR-2 — Repository rules live in context
+A `ReviewContext` dataclass is passed to every run and read by tools. It never appears in prompt text. It carries `repo`, `language`, `ruleset_id`, and `strictness`.
 
 **Done when:** a tool reads `ruleset_id` through the wrapper; the generated schema for that tool has no wrapper parameter; grepping prompts finds no repository name.
 
-### FR-3 — Single reviewer pipeline runs end-to-end
-One reviewer agent accepts a file chunk plus ReviewContext and returns a list of findings in a structured format.
+### FR-3 — Findings come back as a list of typed objects
+A reviewer returns a list, not prose. Every finding crosses agent boundaries as a Pydantic model with `file`, `line`, `severity` (`critical` | `major` | `minor`), and `message`. The agent's `output_type` is `list[Finding]`.
 
-**Done when:** feeding a chunk produces `list[Finding]` with file, line, severity, rule, and message populated.
+**Done when:** you can iterate `final_output` and count criticals with a Python expression; every finding validates against the `Finding` schema.
 
-### FR-4 — Findings are structured and typed
-All findings cross agent boundaries as Pydantic models. No free-text findings enter the merge step.
+### FR-4 — Reviewer instructions are built per run
+The reviewer's system prompt is assembled at request time from the ruleset and the language in context, and gets terser when strictness is `strict`. The resolved prompt can be printed before any model call.
 
-**Done when:** every finding validates against the `Finding` schema; malformed model output is caught and reported.
+**Done when:** two contexts produce two visibly different prompts, and the resolved prompt is printable before any model call.
 
-### FR-5 — Three reviewers run concurrently
-Security, Test, and Style reviewers execute in parallel via `asyncio.gather`. They are clones of a base Reviewer agent, each with its own tuned instructions.
+### FR-5 — Three reviewers, cloned, running concurrently
+Security, tests, and style reviewers are clones of one base reviewer, differing in instructions and model settings. They run concurrently over the same diff, not one after another, via `asyncio.gather`.
 
-**Done when:** a wall-clock benchmark shows concurrent execution strictly faster than sequential; all three reviewers overlap in the trace.
+**Done when:** the three reviews are launched together and awaited as a group; the wall clock for three concurrent reviews is close to the slowest single review, not the sum of all three; and both numbers can be shown.
 
-### FR-6 — Reviewers are tuned differently
-Each reviewer clone has distinct instructions: security focuses on vulnerabilities, tests on coverage gaps and flaky patterns, style on convention violations.
+### FR-6 — Merge as a tool, remediation by handoff
+Two specialists, wired two different ways on purpose:
 
-**Done when:** the same diff yields different finding distributions across the three reviewers.
+- A Merge specialist, exposed with `as_tool`, deduplicates overlapping findings and orders them by severity. The Desk keeps the conversation.
+- A Remediation specialist, reached by `handoff`, takes over when a critical security finding exists, and proposes the patch directly to the user.
 
-### FR-7 — Findings stream as they land
-Results appear in the interface as each reviewer completes, not as one batch at the end.
+Merging is a tool call because the Desk must keep ownership of the conversation and needs one structured report before anything is shown to the user; remediation is a handoff because a critical finding should transfer the conversation to a specialist that speaks the fix directly to the user.
 
-**Done when:** the UI shows the first reviewer's findings before the slowest reviewer finishes.
+**Done when:** both paths fire on the right kind of diff, and this spec contains the two-sentence justification above.
 
-### FR-8 — Output guardrail blocks secrets
-No output from any agent may quote a secret it found in the diff. An output guardrail scans every finding.
+### FR-7 — A cheaper second opinion, configured at the run level
+The Desk can re-run a review on a cheaper model without touching any agent definition — the override happens on the run (`model_override` → `RunConfig(model=...)`).
 
-**Done when:** a diff containing a planted secret produces no finding that echoes the secret; the guardrail refusal is recorded.
+**Done when:** the same reviewer object produces one review on its own model and one on the override, and no agent's `model=` changed between them.
 
-### FR-9 — Merge agent combines findings
-A Merge agent, exposed via `as_tool`, receives findings from all three reviewers and produces one structured report.
+### FR-8 — Nothing leaks: an output guardrail
+An output guardrail inspects the finished report and refuses it if it contains anything shaped like a credential — an API key, token, or password copied out of the diff. The program catches the tripwire and reports the refusal; it does not crash.
 
-**Done when:** the merged report contains findings from all three reviewers, deduplicated and sorted by severity.
+**Done when:** a diff containing a fake key produces a refusal rather than a report; a clean diff passes untouched; the line that caught the exception can be pointed at.
 
-### FR-10 — Critical finding triggers Remediation via handoff
-When the security reviewer emits a critical finding, the conversation hands off to a Remediation agent that proposes a fix.
+### FR-9 — Required tools, failing tools, and a ceiling
+Three controls, all present:
 
-**Done when:** a diff with a critical vulnerability triggers the handoff; the Remediation agent returns a proposed patch.
+1. The reviewer that must consult the ruleset is configured so the model has no choice but to call it (`tool_choice`).
+2. The tools hand their failures to a dedicated error handler rather than raising into the runner.
+3. Every review runs under a turn ceiling (`max_turns`) that raises, is caught, and is reported as a partial review.
 
-### FR-11 — Trace identifies the slowest reviewer
-The entire review is one trace. Per-reviewer span durations make the slowest reviewer nameable.
+**Done when:** deleting the ruleset file produces a review that still finishes with a sensible message; the ceiling is stated with reasoning.
 
-**Done when:** the trace shows three reviewer spans; the slowest is identifiable by duration.
+### FR-10 — Latency and tokens per reviewer
+Run-level hooks record, for each reviewer, how long it took and how many tokens it used, and the report carries those numbers in a footer. Agent-level hooks are attached to exactly one reviewer.
 
-### FR-12 — Token usage is ledgered
-Each run appends a structured line to `ledger.jsonl` with timestamp, agent, token counts, and findings count.
+**Done when:** the footer shows three reviewer rows with token counts read from the run context, not estimated; agent-level hooks are attached to exactly one reviewer.
 
-**Done when:** every run produces one valid JSON line in `ledger.jsonl`.
+### FR-11 — Every run lands in a ledger
+A custom runner appends one line per run to `ledger.jsonl`, registered once at startup. No agent definition mentions it. Line shape: `{"ts", "request_id", "agent", "ms", "findings"}`.
 
-### FR-13 — Chainlit interface presents the review
-A Chainlit app accepts a diff path, runs the pipeline, and streams findings, the merged report, and the trace summary.
+**Done when:** one review produces one ledger line per run; removing the registration is the only change needed to switch the ledger off.
 
-**Done when:** the app shows per-reviewer progress, streams findings live, and displays the merged report.
+### FR-12 — Findings stream into the interface
+A Chainlit page takes a pasted diff and shows findings as they arrive rather than after everything finishes. Session state holds the context and the last report. The handler awaits its run rather than calling a synchronous variant.
 
-## Non-Functional Requirements
+**Done when:** text appears progressively during a review; a second diff in the same session reuses the existing context; the handler awaits its run.
 
-### NFR-1 — Reproducibility
-The same diff and ReviewContext produce the same findings across runs (given fixed model settings).
+### FR-13 — One review, one trace
+Tracing is enabled and exported under the configured key. A whole review — all three reviewers, the merge, any handoff — appears as one trace. Reviewer spans overlap in time rather than stack end to end.
 
-### NFR-2 — No secret leakage
-No secret value from the diff appears in any report, log, trace, or streamed output.
+**Done when:** the trace can be opened; the three reviewers overlap; the slowest one can be named from span durations.
 
-### NFR-3 — Streaming latency
-The first finding appears in the interface before all reviewers complete.
+## Non-functional requirements
 
-### NFR-4 — Trace completeness
-A single trace contains all three reviewer spans and the merge step.
+### NFR-1 — Secrets
+Keys live in `.env`, gitignored. A missing `OPENAI_API_KEY` fails at startup with a sentence, not a stack trace. No secret is ever written to the ledger or the report.
 
-### NFR-5 — Error isolation
-A tool failure returns an error object to the model; the run continues; no exception reaches the Runner.
+### NFR-2 — Cost
+Every agent declares its own model settings. No unbounded generation anywhere (`max_turns` on every run).
+
+### NFR-3 — Observability
+Every review is traceable and every run is in the ledger.
+
+### NFR-4 — Failure
+A tool that meets bad input returns a sentence the model can use. A tool that raises into the runner is a defect.
+
+### NFR-5 — Provenance
+`git log` shows the four Phase 0 artifacts committed before the first code commit. This is checked.
 
 ## Non-Goals (what this project deliberately will not do)
 

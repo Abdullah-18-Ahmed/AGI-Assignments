@@ -33,7 +33,7 @@ Diff Intake → [SecurityReviewer, TestReviewer, StyleReviewer] (parallel) → M
 ### Intake (FR-1)
 - Async entry point reading unified diff from CLI path
 - Split into per-file chunks before any model call
-- Model: `gemini-2.5-flash`, configured on the agent itself
+- Model: `gpt-4o-mini`, configured on the agent itself
 - No global default client anywhere in code
 - Empty/malformed diff → user message, not traceback
 

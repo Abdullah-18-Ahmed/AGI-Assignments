@@ -5,10 +5,10 @@ Architecture: agents, concurrency, tool contracts, boundary schemas.
 ## System Overview
 
 ```
-Diff Path (CLI)
+Diff Path (CLI / Chainlit paste)
     │
     ▼
-[Intake] ── split by file ──► per-file chunks
+[Intake] ── split by file ──► per-file chunks          (FR-1)
     │
     ▼
 ┌─────────────────────────────────────────────┐
@@ -21,14 +21,14 @@ Diff Path (CLI)
 │  │StyleReviewer │ (clone, style tuning)     │
 │  └──────────────┘                           │
 └─────────────────────────────────────────────┘
-    │  list[Finding] from each
+    │  list[Finding] from each                 (FR-3)
     ▼
-[MergeAgent.as_tool] ──► merged report
+[Desk host] ── tools=[MergeAgent.as_tool] ──► merged report  (FR-6 tool)
     │
-    ├─ (on critical security finding) ──handoff──► [RemediationAgent]
-    │
+    ├─ (on critical security finding) ──handoff──► [RemediationAgent]  (FR-6 handoff)
+    │   (run starts on SecurityReviewer which has handoffs=[handoff(Remediation)])
     ▼
-[Output Guardrail] ──► Chainlit stream + ledger.jsonl + trace
+[Output Guardrail] ──► Chainlit stream (FR-12) + ledger.jsonl (FR-11) + one trace (FR-13)
 ```
 
 ## Agents
@@ -36,58 +36,41 @@ Diff Path (CLI)
 ### Base Reviewer
 - Model: `gpt-4o-mini` (configured on instance)
 - Output type: `list[Finding]`
-- Instructions: built dynamically from ReviewContext at call time (no repo name in prompt)
-- Tools: `read_file_chunk`, `read_ruleset` — both wrapped, never raise
+- Instructions: built dynamically from ReviewContext at call time (no repo name in prompt) — FR-4
+- Tools: `read_ruleset` (required via `tool_choice`), wrapped with `failure_error_function` — FR-9
 
-### SecurityReviewer (clone)
-- `base.clone(name="SecurityReviewer", instructions=SECURITY_INSTRUCTIONS)`
-- Tuned for: vulnerabilities, injection, secrets, auth flaws
+### SecurityReviewer / TestReviewer / StyleReviewer (clones)
+- `base.clone(name=..., instructions=...)` — FR-5
+- Distinct instructions per reviewer — FR-6 tuning within the three clones
 
-### TestReviewer (clone)
-- `base.clone(name="TestReviewer", instructions=TEST_INSTRUCTIONS)`
-- Tuned for: coverage gaps, flaky patterns, assertion quality
-
-### StyleReviewer (clone)
-- `base.clone(name="StyleReviewer", instructions=STYLE_INSTRUCTIONS)`
-- Tuned for: naming, structure, convention violations
-
-### MergeAgent
-- Exposed as a tool: `merge_agent.as_tool(tool_name="merge_findings", tool_description="Merge reviewer findings into one report")`
-- Input: three `list[Finding]` payloads
-- Output: `MergedReport`
+### MergeAgent / Desk host
+- Merge exposed as a tool: `merge_agent.as_tool(tool_name="merge_findings", ...)` — FR-6
+- Desk host agent holds the conversation and calls that tool — FR-6
+- Deduplicates and orders by severity
 
 ### RemediationAgent
-- Reached via `handoff` from SecurityReviewer on critical finding
-- Input: the critical `Finding` + file chunk
-- Output: `RemediationProposal` (patch text + rationale)
+- Reached via `handoff` from SecurityReviewer on critical finding — FR-6
+- On critical, pipeline starts the run on SecurityReviewer so the handoff transfers to Remediation
+- Output: `RemediationProposal` (finding, patch, rationale)
 
 ## Concurrency
 
-- Three reviewers run via `asyncio.gather(*[Runner.run(r, chunk, context) for r in reviewers])`
-- Each reviewer is independent; no shared mutable state
-- Findings stream to the UI as each gather member completes (use `asyncio.as_completed` for streaming)
+- Three reviewers run via `asyncio.gather` — FR-5
+- Findings stream to the UI as each completes (`on_findings` callback) — FR-12
 
 ## Data Models (Pydantic)
 
 ```python
-from pydantic import BaseModel, Field
-from enum import Enum
-
-class Severity(str, Enum):
-    critical = "critical"
-    high = "high"
-    medium = "medium"
-    low = "low"
-    info = "info"
+from typing import Literal
+from pydantic import BaseModel
 
 class Finding(BaseModel):
     file: str
     line: int
-    severity: Severity
-    rule: str
+    severity: Literal["critical", "major", "minor"]
     message: str
 
-class ReviewContext(BaseModel):
+class ReviewContext:  # dataclass, not Pydantic
     repo: str
     language: str
     ruleset_id: str
@@ -103,28 +86,22 @@ class RemediationProposal(BaseModel):
     finding: Finding
     patch: str
     rationale: str
+```
 
-class RunLedgerEntry(BaseModel):
-    timestamp: str          # ISO 8601
-    agent: str
-    tokens_in: int
-    tokens_out: int
-    findings_count: int
-    duration_ms: int
+Ledger line (FR-11), one JSON object per run:
+
+```json
+{"ts": "2026-09-23T19:04:11Z", "request_id": "req_...", "agent": "SecurityReviewer", "ms": 2140, "findings": 3}
 ```
 
 ## Tool Contracts
 
-### `read_file_chunk(chunk_id: str) -> str`
-- Returns the file chunk text for the given id
-- On error: returns `{"error": "chunk not found: <id>"}` — never raises
+### `read_ruleset() -> str` (required tool, FR-9)
+- Reads the active ruleset via ReviewContext wrapper (schema has no wrapper params)
+- On missing file / error: returns a sentence the model can use — never raises
+- Forced with `ModelSettings(tool_choice="read_ruleset")` on reviewers that must consult the ruleset
 
-### `read_ruleset(ruleset_id: str) -> dict`
-- Reads ruleset via ReviewContext wrapper
-- Generated schema exposes only `ruleset_id: str` — no wrapper params
-- On error: returns `{"error": "ruleset not found: <id>"}` — never raises
-
-### `merge_findings(security: list[Finding], tests: list[Finding], style: list[Finding]) -> MergedReport`
+### `merge_findings(...)` via `as_tool` (FR-6)
 - Agent-as-a-tool from MergeAgent
 - Deduplicates, sorts by severity
 
@@ -135,21 +112,22 @@ class RunLedgerEntry(BaseModel):
 | CLI → Intake | path: `str` | — |
 | Intake → Reviewers | chunk: `str`, context: `ReviewContext` | — |
 | Reviewer → Merge | `list[Finding]` | Pydantic |
-| Merge → UI/report | `MergedReport` | Pydantic |
+| Merge → UI/report | `list[Finding]` / `MergedReport` | Pydantic |
 | Security → Remediation | `Finding` (handoff) | Pydantic |
 | Remediation → UI | `RemediationProposal` | Pydantic |
-| Any run → ledger | `RunLedgerEntry` | JSONL |
+| Any run → ledger | `{ts, request_id, agent, ms, findings}` | JSONL |
 
 ## Execution Controls
 
-- **Output guardrail**: secret scanner on every agent's `output_guardrails`
-- **Turn ceiling**: `max_turns` set on every `Runner.run`
-- **Model override**: per-run `model="gpt-4o-mini"` (or `gpt-4o` for merge/remediation)
-- **Error handling**: all tools wrapped; return error objects
+- **Output guardrail**: secret scanner on every agent's `output_guardrails` (FR-8)
+- **Turn ceiling**: `max_turns` on every run; `MaxTurnsExceeded` caught → partial (FR-9)
+- **Model override**: per-run `RunConfig(model=...)` without editing agents (FR-7)
+- **Error handling**: tools use `failure_error_function`; never raise into runner (NFR-4)
 
 ## Observability
 
-- **Lifecycle hooks**: capture token usage per run
-- **ledger.jsonl**: custom runner appends `RunLedgerEntry` per run
-- **OpenTelemetry**: one trace, three reviewer spans + merge span; slowest = max duration
-- **Chainlit**: streams findings via `asyncio.as_completed`; shows trace summary
+- **Run-level hooks**: latency + tokens per reviewer in report footer (FR-10)
+- **Agent-level hooks**: attached to exactly one reviewer (FR-10)
+- **ledger.jsonl**: custom runner wrapper, registered once at startup (FR-11)
+- **OpenTelemetry**: one root span, three overlapping reviewer spans + merge; slowest = max duration; exported under configured key (FR-13)
+- **Chainlit**: streams findings as each reviewer lands; session holds context + last report (FR-12)

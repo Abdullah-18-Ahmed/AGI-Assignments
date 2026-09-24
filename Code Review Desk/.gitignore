@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+benchmark_fr5.json
+otel_trace.jsonl
+ledger.jsonl
+chainlit_*.log
+guide_extracted.txt
+_guide.txt
+
