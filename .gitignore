@@ -1,0 +1,75 @@
+# Environment files - NEVER commit secrets
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Chainlit
+.chainlit/
+chainlit.md
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Testing
+.tox/
+.nox/
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# Package manager
+uv.lock
+
+# Type checking
+*.pyc
+
+# Shop-desk specific
+Shop-desk/.env
+Shop-desk/.venv/
+Shop-desk/__pycache__/
+Shop-desk/.pytest_cache/
+Shop-desk/.mypy_cache/
+Shop-desk/.ruff_cache/
+Shop-desk/.chainlit/
+Shop-desk/chainlit.md
+Shop-desk/logs/
