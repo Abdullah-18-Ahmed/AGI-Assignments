@@ -1,0 +1,227 @@
+{
+  "version": "1.0.0",
+  "shop": "Al-Noor Electronics",
+  "currency": "PKR",
+  "products": [
+    {
+      "sku": "ANE-EK-001",
+      "name": "Electric Kettle 1.7L",
+      "category": "kitchen",
+      "price": 4200,
+      "stock": 12,
+      "description": "Stainless steel electric kettle with auto shut-off and boil-dry protection. 1.7L capacity, 2200W.",
+      "weight_g": 850,
+      "dimensions_cm": {"l": 22, "w": 15, "h": 25},
+      "tags": ["kitchen", "appliance", "electric"]
+    },
+    {
+      "sku": "ANE-PF-002",
+      "name": "Pedestal Fan 18 inch",
+      "category": "cooling",
+      "price": 9800,
+      "stock": 0,
+      "description": "Adjustable height pedestal fan with 3-speed settings and oscillation. 18-inch blades, copper motor.",
+      "weight_g": 4200,
+      "dimensions_cm": {"l": 45, "w": 45, "h": 130},
+      "tags": ["cooling", "fan", "home"]
+    },
+    {
+      "sku": "ANE-HB-003",
+      "name": "Hand Blender 500W",
+      "category": "kitchen",
+      "price": 3500,
+      "stock": 8,
+      "description": "Multi-speed hand blender with stainless steel shaft and whisk attachment. 500W motor.",
+      "weight_g": 650,
+      "dimensions_cm": {"l": 7, "w": 7, "h": 38},
+      "tags": ["kitchen", "blender", "appliance"]
+    },
+    {
+      "sku": "ANE-MW-004",
+      "name": "Microwave Oven 20L",
+      "category": "kitchen",
+      "price": 18500,
+      "stock": 5,
+      "description": "Digital microwave with 8 auto-cook menus, defrost function, and child lock. 20L capacity, 700W.",
+      "weight_g": 11200,
+      "dimensions_cm": {"l": 44, "w": 35, "h": 26},
+      "tags": ["kitchen", "microwave", "appliance"]
+    },
+    {
+      "sku": "ANE-AC-005",
+      "name": "Air Cooler 45L",
+      "category": "cooling",
+      "price": 15600,
+      "stock": 3,
+      "description": "Desert air cooler with honeycomb cooling pads, ice chamber, and remote control. 45L tank, 200W.",
+      "weight_g": 8500,
+      "dimensions_cm": {"l": 55, "w": 40, "h": 100},
+      "tags": ["cooling", "air-cooler", "home"]
+    },
+    {
+      "sku": "ANE-IR-006",
+      "name": "Steam Iron 2400W",
+      "category": "laundry",
+      "price": 4800,
+      "stock": 15,
+      "description": "Ceramic soleplate steam iron with vertical steam, self-clean, and anti-drip. 2400W, 350ml tank.",
+      "weight_g": 1400,
+      "dimensions_cm": {"l": 30, "w": 12, "h": 15},
+      "tags": ["laundry", "iron", "appliance"]
+    },
+    {
+      "sku": "ANE-VC-007",
+      "name": "Vacuum Cleaner 2000W",
+      "category": "cleaning",
+      "price": 12400,
+      "stock": 6,
+      "description": "Bagless vacuum cleaner with HEPA filter, cyclonic suction, and 2.5L dust capacity. 2000W.",
+      "weight_g": 5800,
+      "dimensions_cm": {"l": 38, "w": 28, "h": 27},
+      "tags": ["cleaning", "vacuum", "home"]
+    },
+    {
+      "sku": "ANE-TO-008",
+      "name": "Toaster 2-Slice",
+      "category": "kitchen",
+      "price": 2800,
+      "stock": 20,
+      "description": "2-slice toaster with variable browning control, defrost, and reheat functions. Cancel button.",
+      "weight_g": 1100,
+      "dimensions_cm": {"l": 28, "w": 14, "h": 18},
+      "tags": ["kitchen", "toaster", "appliance"]
+    },
+    {
+      "sku": "ANE-CF-009",
+      "name": "Ceiling Fan 56 inch",
+      "category": "cooling",
+      "price": 7200,
+      "stock": 10,
+      "description": "56-inch ceiling fan with 3 blades, double ball bearing motor, and pull-chain speed control.",
+      "weight_g": 4500,
+      "dimensions_cm": {"l": 142, "w": 142, "h": 25},
+      "tags": ["cooling", "fan", "ceiling"]
+    },
+    {
+      "sku": "ANE-FP-010",
+      "name": "Food Processor 800W",
+      "category": "kitchen",
+      "price": 11200,
+      "stock": 4,
+      "description": "Multi-function food processor with chopping, slicing, shredding, and kneading attachments. 800W, 2.5L bowl.",
+      "weight_g": 3200,
+      "dimensions_cm": {"l": 25, "w": 22, "h": 38},
+      "tags": ["kitchen", "processor", "appliance"]
+    },
+    {
+      "sku": "ANE-WM-011",
+      "name": "Washing Machine 7kg",
+      "category": "laundry",
+      "price": 45000,
+      "stock": 2,
+      "description": "Top-load fully automatic washing machine with 8 wash programs, fuzzy logic, and child lock. 7kg capacity.",
+      "weight_g": 32000,
+      "dimensions_cm": {"l": 55, "w": 55, "h": 95},
+      "tags": ["laundry", "washing-machine", "appliance"]
+    },
+    {
+      "sku": "ANE-RF-012",
+      "name": "Refrigerator 250L",
+      "category": "kitchen",
+      "price": 58000,
+      "stock": 1,
+      "description": "Double-door frost-free refrigerator with toughened glass shelves, vegetable crisper, and door alarm. 250L.",
+      "weight_g": 48000,
+      "dimensions_cm": {"l": 55, "w": 60, "h": 155},
+      "tags": ["kitchen", "refrigerator", "appliance"]
+    },
+    {
+      "sku": "ANE-HD-013",
+      "name": "Hair Dryer 2000W",
+      "category": "personal-care",
+      "price": 3200,
+      "stock": 18,
+      "description": "Professional hair dryer with 3 heat/2 speed settings, cool shot, and concentrator nozzle. 2000W.",
+      "weight_g": 550,
+      "dimensions_cm": {"l": 23, "w": 9, "h": 22},
+      "tags": ["personal-care", "hair-dryer", "appliance"]
+    },
+    {
+      "sku": "ANE-BL-014",
+      "name": "Blender 600W",
+      "category": "kitchen",
+      "price": 4500,
+      "stock": 9,
+      "description": "Countertop blender with 1.5L glass jar, pulse function, and stainless steel blades. 600W motor.",
+      "weight_g": 2100,
+      "dimensions_cm": {"l": 18, "w": 18, "h": 38},
+      "tags": ["kitchen", "blender", "appliance"]
+    },
+    {
+      "sku": "ANE-EP-015",
+      "name": "Extension Power Strip 6-Outlet",
+      "category": "accessories",
+      "price": 1200,
+      "stock": 30,
+      "description": "6-outlet surge-protected power strip with 2m cable, individual switches, and child safety shutters.",
+      "weight_g": 450,
+      "dimensions_cm": {"l": 35, "w": 7, "h": 4},
+      "tags": ["accessories", "power-strip", "electrical"]
+    },
+    {
+      "sku": "ANE-LE-016",
+      "name": "LED Emergency Light",
+      "category": "lighting",
+      "price": 1800,
+      "stock": 25,
+      "description": "Rechargeable LED emergency light with 24 SMD LEDs, 6-hour backup, and overcharge protection.",
+      "weight_g": 380,
+      "dimensions_cm": {"l": 16, "w": 10, "h": 28},
+      "tags": ["lighting", "emergency", "rechargeable"]
+    },
+    {
+      "sku": "ANE-SG-017",
+      "name": "Sandwich Griller 750W",
+      "category": "kitchen",
+      "price": 3800,
+      "stock": 7,
+      "description": "Non-stick coated sandwich griller with floating hinge, power indicator, and cool-touch handle. 750W.",
+      "weight_g": 1800,
+      "dimensions_cm": {"l": 23, "w": 23, "h": 10},
+      "tags": ["kitchen", "griller", "appliance"]
+    },
+    {
+      "sku": "ANE-WD-018",
+      "name": "Water Dispenser",
+      "category": "kitchen",
+      "price": 14500,
+      "stock": 3,
+      "description": "Bottom-load water dispenser with hot, normal, and cold options. Child safety lock on hot tap.",
+      "weight_g": 14000,
+      "dimensions_cm": {"l": 31, "w": 33, "h": 98},
+      "tags": ["kitchen", "water-dispenser", "appliance"]
+    },
+    {
+      "sku": "ANE-EX-019",
+      "name": "Exhaust Fan 12 inch",
+      "category": "cooling",
+      "price": 3600,
+      "stock": 14,
+      "description": "12-inch exhaust fan with auto-shutter, low noise motor, and corrosion-resistant body. 50W.",
+      "weight_g": 2100,
+      "dimensions_cm": {"l": 34, "w": 34, "h": 15},
+      "tags": ["cooling", "exhaust-fan", "ventilation"]
+    },
+    {
+      "sku": "ANE-RC-020",
+      "name": "Rice Cooker 1.8L",
+      "category": "kitchen",
+      "price": 5200,
+      "stock": 6,
+      "description": "Automatic rice cooker with keep-warm function, non-stick inner pot, and steam tray. 1.8L, 700W.",
+      "weight_g": 2500,
+      "dimensions_cm": {"l": 26, "w": 26, "h": 24},
+      "tags": ["kitchen", "rice-cooker", "appliance"]
+    }
+  ]
+}

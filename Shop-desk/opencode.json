@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "openai/gpt-4o-mini",
+  "models": {
+    "reasoning": "openai/gpt-4o"
+  },
+  "permission": {
+    "tool": {
+      "skill": "allow",
+      "subagent": "allow"
+    }
+  },
+  "env": {
+    "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+  }
+}

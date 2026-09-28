@@ -1,0 +1,47 @@
+[project]
+name = "shop-desk"
+version = "0.1.0"
+description = "AI-powered Shop Desk assistant"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "openai-agents>=0.0.1",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.3.0",
+    "chainlit>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "watchfiles>=0.21.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.2.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.5.0",
+    "mypy>=1.10.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["shop_desk*"]
+exclude = ["logs*", "tests*"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_functions = "test_*"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
